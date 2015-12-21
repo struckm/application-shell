@@ -54,7 +54,5 @@ gulp.task('service-worker', function(cb) {
     handleFetch: (GLOBAL.config.env === 'prod')
   })
   .then(cb)
-  .catch(() => {
-    cb();
-  });
+  .catch();
 });
