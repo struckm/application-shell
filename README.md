@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Application Shell Architecture
 
 A modern web application architecture leveraging [Service Worker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/) to offline cache your application 'shell' and populate the content using JS. This means you can get pixels on the screen without the network, even if the content eventually comes from the network - a great performance win. In browsers without SW, we gracefully degrade to server-side rendering (e.g iOS). [Demo](https://app-shell.appspot.com/).
@@ -116,4 +115,3 @@ Please note: this is not a Google product
 With thanks to Paul Lewis for his inspiration in the [Voice Memos](https://voice-memos.appspot.com/) app and [Yannick Lung](https://www.iconfinder.com/icons/315148/app_document_file_icon#size=512) for the App icon used.
 =======
 # application-shell
->>>>>>> a3ef7cb1be244b4be7ecb5258bcab6066db781aa
